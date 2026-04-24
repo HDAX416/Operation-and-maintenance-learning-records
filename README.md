@@ -29,3 +29,7 @@
 
 ---
 > **Learning by doing.** 既然选择了网络工程，就从每一行配置和每一个容器开始打磨。
+```bash
+# 启动 Docker 容器的命令
+docker run -d --name my-web -p 80:80 nginx
+```
