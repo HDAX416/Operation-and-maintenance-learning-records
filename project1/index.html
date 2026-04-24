@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>可执行 HTML/CSS 示例</title>
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 页面主体：居中布局 + 动态背景 */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        /* 背景动画关键帧 */
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* 卡片容器样式 */
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        /* 鼠标悬停效果 */
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* 标题样式 */
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        /* 段落样式 */
+        p {
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        /* 按钮样式 */
+        button {
+            background: #e73c7e;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.1s ease;
+            outline: none;
+        }
+
+        button:hover {
+            background: #c32d6b;
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>你好，世界！</h1>
+        <p>这是一个由 HTML 和 CSS 构建的交互式卡片。背景是纯 CSS 动画，按钮点击会有反馈。</p>
+        <button id="actionBtn">点击我</button>
+    </div>
+
+    <script>
+        // 简单的交互逻辑
+        const btn = document.getElementById('actionBtn');
+        const title = document.querySelector('h1');
+        
+        btn.addEventListener('click', () => {
+            title.innerText = "代码执行成功！🎉";
+            title.style.color = "#e73c7e";
+            btn.innerText = "已点击";
+            btn.disabled = true;
+            btn.style.background = "#ccc";
+        });
+    </script>
+</body>
+</html>

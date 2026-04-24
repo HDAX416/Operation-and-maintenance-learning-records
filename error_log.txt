@@ -1,0 +1,133 @@
+Apr 12 18:19:17 DESKTOP-ODNVFCF snapd[198]: stateengine.go:161: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout or context cancellation while reading body)
+Apr 12 18:36:29 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Apr 12 18:36:29 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Apr 12 18:36:29 DESKTOP-ODNVFCF wsl-pro-service[200]: #033[31mERROR#033[0m context.Background could not create daemon: could not find address file: could not find $env:UserProfile: could not locate Windows' user profile directory: /mnt/c/WINDOWS/system32/cmd.exe: error: fork/exec /mnt/c/WINDOWS/system32/cmd.exe: exec format error.
+Apr 12 18:37:07 DESKTOP-ODNVFCF snapd[196]: stateengine.go:161: state ensure error: Get "https://api.snapcraft.io/api/v1/snaps/sections": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+Apr 12 18:55:51 DESKTOP-ODNVFCF wsl-pro-service[847]: #033[31mERROR#033[0m context.Background could not create daemon: could not find address file: could not find $env:UserProfile: could not locate Windows' user profile directory: /mnt/c/WINDOWS/system32/cmd.exe: error: fork/exec /mnt/c/WINDOWS/system32/cmd.exe: exec format error.
+Apr 12 19:15:11 DESKTOP-ODNVFCF wsl-pro-service[1037]: #033[31mERROR#033[0m context.Background could not create daemon: could not find address file: could not find $env:UserProfile: could not locate Windows' user profile directory: /mnt/c/WINDOWS/system32/cmd.exe: error: fork/exec /mnt/c/WINDOWS/system32/cmd.exe: exec format error.
+Apr 12 19:40:06 DESKTOP-ODNVFCF wsl-pro-service[1287]: #033[31mERROR#033[0m context.Background could not create daemon: could not find address file: could not find $env:UserProfile: could not locate Windows' user profile directory: /mnt/c/WINDOWS/system32/cmd.exe: error: fork/exec /mnt/c/WINDOWS/system32/cmd.exe: exec format error.
+Apr 12 20:06:53 DESKTOP-ODNVFCF wsl-pro-service[1404]: #033[31mERROR#033[0m context.Background could not create daemon: could not find address file: could not find $env:UserProfile: could not locate Windows' user profile directory: /mnt/c/WINDOWS/system32/cmd.exe: error: fork/exec /mnt/c/WINDOWS/system32/cmd.exe: exec format error.
+Apr 13 18:27:17 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Apr 13 18:27:17 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Apr 13 20:03:38 DESKTOP-ODNVFCF kernel: [ 5782.447274] device offline error, dev sdf, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:03:38 DESKTOP-ODNVFCF kernel: [ 5782.450269] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:03:38 DESKTOP-ODNVFCF kernel: [ 5782.450787] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:03:38 DESKTOP-ODNVFCF kernel: [ 5782.451391] Buffer I/O error on dev sdf, logical block 134184960, lost sync page write
+Apr 13 20:03:38 DESKTOP-ODNVFCF kernel: [ 5782.451958] JBD2: I/O error when updating journal superblock for sdf-8.
+Apr 13 20:03:39 DESKTOP-ODNVFCF kernel: [ 5783.226664] device offline error, dev sde, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:03:39 DESKTOP-ODNVFCF kernel: [ 5783.233566] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:03:39 DESKTOP-ODNVFCF kernel: [ 5783.233940] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:03:39 DESKTOP-ODNVFCF kernel: [ 5783.234324] Buffer I/O error on dev sde, logical block 65537, lost sync page write
+Apr 13 20:03:39 DESKTOP-ODNVFCF kernel: [ 5783.234601] JBD2: I/O error when updating journal superblock for sde-8.
+Apr 13 20:03:41 DESKTOP-ODNVFCF kernel: [ 5786.227411] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:03:41 DESKTOP-ODNVFCF kernel: [ 5786.228664] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:03:41 DESKTOP-ODNVFCF kernel: [ 5786.270339] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:03:41 DESKTOP-ODNVFCF kernel: [ 5786.270810] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:03:41 DESKTOP-ODNVFCF kernel: [ 5786.271256] Buffer I/O error on dev sdh, logical block 134184960, lost sync page write
+Apr 13 20:03:41 DESKTOP-ODNVFCF kernel: [ 5786.271557] JBD2: I/O error when updating journal superblock for sdh-8.
+Apr 13 20:04:26 DESKTOP-ODNVFCF kernel: [ 5831.120363] device offline error, dev sdg, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:04:26 DESKTOP-ODNVFCF kernel: [ 5831.128786] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:04:26 DESKTOP-ODNVFCF kernel: [ 5831.129296] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:04:26 DESKTOP-ODNVFCF kernel: [ 5831.129674] Buffer I/O error on dev sdg, logical block 65537, lost sync page write
+Apr 13 20:04:26 DESKTOP-ODNVFCF kernel: [ 5831.130242] JBD2: I/O error when updating journal superblock for sdg-8.
+Apr 13 20:04:56 DESKTOP-ODNVFCF kernel: [ 5862.609508] device offline error, dev sdf, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:04:56 DESKTOP-ODNVFCF kernel: [ 5862.611770] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:04:56 DESKTOP-ODNVFCF kernel: [ 5862.612263] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:04:56 DESKTOP-ODNVFCF kernel: [ 5862.613021] Buffer I/O error on dev sdf, logical block 134184960, lost sync page write
+Apr 13 20:04:56 DESKTOP-ODNVFCF kernel: [ 5862.613568] JBD2: I/O error when updating journal superblock for sdf-8.
+Apr 13 20:04:57 DESKTOP-ODNVFCF kernel: [ 5863.377064] device offline error, dev sde, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:04:57 DESKTOP-ODNVFCF kernel: [ 5863.384042] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:04:57 DESKTOP-ODNVFCF kernel: [ 5863.384520] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:04:57 DESKTOP-ODNVFCF kernel: [ 5863.384928] Buffer I/O error on dev sde, logical block 65537, lost sync page write
+Apr 13 20:04:57 DESKTOP-ODNVFCF kernel: [ 5863.385216] JBD2: I/O error when updating journal superblock for sde-8.
+Apr 13 20:07:32 DESKTOP-ODNVFCF kernel: [ 6018.208730] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:07:32 DESKTOP-ODNVFCF kernel: [ 6018.210987] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:07:33 DESKTOP-ODNVFCF kernel: [ 6018.252102] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:07:33 DESKTOP-ODNVFCF kernel: [ 6018.252762] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:07:33 DESKTOP-ODNVFCF kernel: [ 6018.253414] Buffer I/O error on dev sdh, logical block 134184960, lost sync page write
+Apr 13 20:07:33 DESKTOP-ODNVFCF kernel: [ 6018.253759] JBD2: I/O error when updating journal superblock for sdh-8.
+Apr 13 20:09:21 DESKTOP-ODNVFCF kernel: [ 6126.368925] device offline error, dev sdg, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:09:21 DESKTOP-ODNVFCF kernel: [ 6126.375595] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:09:21 DESKTOP-ODNVFCF kernel: [ 6126.376348] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:09:21 DESKTOP-ODNVFCF kernel: [ 6126.376786] Buffer I/O error on dev sdg, logical block 65537, lost sync page write
+Apr 13 20:09:21 DESKTOP-ODNVFCF kernel: [ 6126.377127] JBD2: I/O error when updating journal superblock for sdg-8.
+Apr 13 20:18:34 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Apr 13 20:18:34 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Apr 13 20:23:12 DESKTOP-ODNVFCF kernel: [  284.976411] device offline error, dev sdf, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:23:12 DESKTOP-ODNVFCF kernel: [  284.978005] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:23:12 DESKTOP-ODNVFCF kernel: [  284.978557] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:23:12 DESKTOP-ODNVFCF kernel: [  284.979150] Buffer I/O error on dev sdf, logical block 134184960, lost sync page write
+Apr 13 20:23:12 DESKTOP-ODNVFCF kernel: [  284.979717] JBD2: I/O error when updating journal superblock for sdf-8.
+Apr 13 20:23:13 DESKTOP-ODNVFCF kernel: [  285.701371] device offline error, dev sde, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 20:23:13 DESKTOP-ODNVFCF kernel: [  285.707768] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:23:13 DESKTOP-ODNVFCF kernel: [  285.708132] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 20:23:13 DESKTOP-ODNVFCF kernel: [  285.708486] Buffer I/O error on dev sde, logical block 65537, lost sync page write
+Apr 13 20:23:13 DESKTOP-ODNVFCF kernel: [  285.708866] JBD2: I/O error when updating journal superblock for sde-8.
+Apr 13 20:25:01 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Apr 13 20:25:01 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Apr 13 20:25:12 DESKTOP-ODNVFCF snapd[201]: stateengine.go:161: state ensure error: decode new commands catalog: net/http: request canceled (Client.Timeout or context cancellation while reading body)
+Apr 13 21:36:19 DESKTOP-ODNVFCF kernel: [ 2382.821838] device offline error, dev sdf, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 21:36:19 DESKTOP-ODNVFCF kernel: [ 2382.824762] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:19 DESKTOP-ODNVFCF kernel: [ 2382.825377] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:19 DESKTOP-ODNVFCF kernel: [ 2382.825992] Buffer I/O error on dev sdf, logical block 134184960, lost sync page write
+Apr 13 21:36:19 DESKTOP-ODNVFCF kernel: [ 2382.826491] JBD2: I/O error when updating journal superblock for sdf-8.
+Apr 13 21:36:20 DESKTOP-ODNVFCF kernel: [ 2383.221896] I/O error, dev loop0, sector 112 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 2
+Apr 13 21:36:20 DESKTOP-ODNVFCF kernel: [ 2383.648693] device offline error, dev sde, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 21:36:20 DESKTOP-ODNVFCF kernel: [ 2383.655644] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:20 DESKTOP-ODNVFCF kernel: [ 2383.656474] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:20 DESKTOP-ODNVFCF kernel: [ 2383.657143] Buffer I/O error on dev sde, logical block 65537, lost sync page write
+Apr 13 21:36:20 DESKTOP-ODNVFCF kernel: [ 2383.657713] JBD2: I/O error when updating journal superblock for sde-8.
+Apr 13 21:36:30 DESKTOP-ODNVFCF kernel: [ 2394.213550] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 21:36:30 DESKTOP-ODNVFCF kernel: [ 2394.218230] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 21:36:30 DESKTOP-ODNVFCF kernel: [ 2394.256754] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:30 DESKTOP-ODNVFCF kernel: [ 2394.257480] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:30 DESKTOP-ODNVFCF kernel: [ 2394.258068] Buffer I/O error on dev sdh, logical block 134184960, lost sync page write
+Apr 13 21:36:30 DESKTOP-ODNVFCF kernel: [ 2394.258501] JBD2: I/O error when updating journal superblock for sdh-8.
+Apr 13 21:36:52 DESKTOP-ODNVFCF kernel: [ 2415.233473] device offline error, dev sdg, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 13 21:36:52 DESKTOP-ODNVFCF kernel: [ 2415.240477] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:52 DESKTOP-ODNVFCF kernel: [ 2415.241168] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 13 21:36:52 DESKTOP-ODNVFCF kernel: [ 2415.241992] Buffer I/O error on dev sdg, logical block 65537, lost sync page write
+Apr 13 21:36:52 DESKTOP-ODNVFCF kernel: [ 2415.242504] JBD2: I/O error when updating journal superblock for sdg-8.
+Apr 14 14:11:50 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Apr 14 14:11:50 DESKTOP-ODNVFCF systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Apr 14 14:36:09 DESKTOP-ODNVFCF kernel: [ 1461.855730] device offline error, dev sdf, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 14:36:09 DESKTOP-ODNVFCF kernel: [ 1461.863960] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:36:09 DESKTOP-ODNVFCF kernel: [ 1461.864940] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:36:09 DESKTOP-ODNVFCF kernel: [ 1461.865582] Buffer I/O error on dev sdf, logical block 134184960, lost sync page write
+Apr 14 14:36:09 DESKTOP-ODNVFCF kernel: [ 1461.866108] JBD2: I/O error when updating journal superblock for sdf-8.
+Apr 14 14:36:10 DESKTOP-ODNVFCF kernel: [ 1462.296395] I/O error, dev loop0, sector 112 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 2
+Apr 14 14:36:10 DESKTOP-ODNVFCF kernel: [ 1462.674319] device offline error, dev sde, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 14:36:10 DESKTOP-ODNVFCF kernel: [ 1462.680404] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:36:10 DESKTOP-ODNVFCF kernel: [ 1462.680814] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:36:10 DESKTOP-ODNVFCF kernel: [ 1462.681425] Buffer I/O error on dev sde, logical block 65537, lost sync page write
+Apr 14 14:36:10 DESKTOP-ODNVFCF kernel: [ 1462.681921] JBD2: I/O error when updating journal superblock for sde-8.
+Apr 14 14:46:10 DESKTOP-ODNVFCF kernel: [ 2062.646768] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 14:46:10 DESKTOP-ODNVFCF kernel: [ 2062.648326] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:46:10 DESKTOP-ODNVFCF kernel: [ 2062.648780] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:46:10 DESKTOP-ODNVFCF kernel: [ 2062.649441] Buffer I/O error on dev sdh, logical block 134184960, lost sync page write
+Apr 14 14:46:10 DESKTOP-ODNVFCF kernel: [ 2062.649921] JBD2: I/O error when updating journal superblock for sdh-8.
+Apr 14 14:46:11 DESKTOP-ODNVFCF kernel: [ 2063.398867] device offline error, dev sdg, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 14:46:11 DESKTOP-ODNVFCF kernel: [ 2063.405875] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:46:11 DESKTOP-ODNVFCF kernel: [ 2063.406641] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:46:11 DESKTOP-ODNVFCF kernel: [ 2063.407133] Buffer I/O error on dev sdg, logical block 65537, lost sync page write
+Apr 14 14:46:11 DESKTOP-ODNVFCF kernel: [ 2063.407430] JBD2: I/O error when updating journal superblock for sdg-8.
+Apr 14 14:52:02 DESKTOP-ODNVFCF kernel: [ 2414.438718] device offline error, dev sdf, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 14:52:02 DESKTOP-ODNVFCF kernel: [ 2414.440314] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:52:02 DESKTOP-ODNVFCF kernel: [ 2414.440911] device offline error, dev sdf, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:52:02 DESKTOP-ODNVFCF kernel: [ 2414.441515] Buffer I/O error on dev sdf, logical block 134184960, lost sync page write
+Apr 14 14:52:02 DESKTOP-ODNVFCF kernel: [ 2414.441974] JBD2: I/O error when updating journal superblock for sdf-8.
+Apr 14 14:52:03 DESKTOP-ODNVFCF kernel: [ 2415.159659] device offline error, dev sde, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 14:52:03 DESKTOP-ODNVFCF kernel: [ 2415.167793] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:52:03 DESKTOP-ODNVFCF kernel: [ 2415.168552] device offline error, dev sde, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 14:52:03 DESKTOP-ODNVFCF kernel: [ 2415.169179] Buffer I/O error on dev sde, logical block 65537, lost sync page write
+Apr 14 14:52:03 DESKTOP-ODNVFCF kernel: [ 2415.169626] JBD2: I/O error when updating journal superblock for sde-8.
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3604.990990] device offline error, dev sdh, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3604.992773] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3604.993191] device offline error, dev sdh, sector 1073479680 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3604.993689] Buffer I/O error on dev sdh, logical block 134184960, lost sync page write
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3604.994005] JBD2: I/O error when updating journal superblock for sdh-8.
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3605.712597] device offline error, dev sdg, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 2
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3605.719575] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3605.720095] device offline error, dev sdg, sector 131074 op 0x1:(WRITE) flags 0x9800 phys_seg 1 prio class 2
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3605.720595] Buffer I/O error on dev sdg, logical block 65537, lost sync page write
+Apr 14 15:11:53 DESKTOP-ODNVFCF kernel: [ 3605.720891] JBD2: I/O error when updating journal superblock for sdg-8.

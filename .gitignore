@@ -1,0 +1,11 @@
+# 日志文件
+*.log
+# 备份目录
+mysql_backups/
+backup_logs/
+# 压缩包
+*.tar.gz
+*.gz
+# Docker 相关（可选，如果你想传 Dockerfile 就不写）
+# *.yml
+# Dockerfile

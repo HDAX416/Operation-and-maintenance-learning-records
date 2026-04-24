@@ -1,0 +1,10 @@
+1.docker镜像和容器的区别
+镜像=安装包 ，容器=运行起来的实例
+2.-p端口映射是什么？
+3.-v目录挂载的是什么？
+4.docker常用命令（images/ps/run/exec/logs）
+5.docker适合部署什么场景？
+
+dockerfile中FROM的作用->指定基础镜像
+COPY和RUN的区别？->COPY复制文件，RUN执行命令
+EXPOSE是干嘛的？生命容器暴露的端口，方便映射
