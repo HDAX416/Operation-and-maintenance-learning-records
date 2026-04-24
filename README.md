@@ -25,11 +25,47 @@
 
 ## ✍️ 最近更新
 - [2026-04-23] 成功配置 SSH 443 端口隧道，解决 GitHub 提交连接拒绝问题。
-- [2026-04-20] 完成 Docker 基础网络配置实验。
+- [2026-04-20] 完成 Docker 网络配置实验。
 
 ---
-> **Learning by doing.** 既然选择了网络工程，就从每一行配置和每一个容器开始打磨。
+> **Learning by doing.** 。
 ```bash
-# 启动 Docker 容器的命令
-docker run -d --name my-web -p 80:80 nginx
+# Docker 容器的命令
+docker pull nginx
+docker run -d --name my-web -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx start my-web
+docker stop my-web
+docker rm -f my-web
+docker exec -it my-nginx bash
+docker ps -a
+docker logs my-web
+
+#Dockerfile 文件编写
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
+#构建镜像
+docker build -t my-nginx:v1 .
+docker images
+#运行镜像
+docker run -d --name my-nginx-app -p 8081:80 my-nginx:v1
+#测试访问
+curl http://localhost:8081
+
+#Docker-Compose使用
+docker-compose up -d
+
+#SEHLL脚本的使用
+#MySQL
+#启动容器
+docker run -d 
+  --name my-mysql 
+  -p 3306:3306 
+  -e MYSQL_ROOT_PASSWORD=123456 
+  -v mysql_data:/var/lib/mysql 
+  mysql:8.0
+#进入容器内部
+docker exec -it my-mysql mysql -uroot -p123456
+#困了先歇一会吧
 ```
