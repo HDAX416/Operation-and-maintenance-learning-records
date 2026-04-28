@@ -1,0 +1,43 @@
+删除空文件夹 ：rmdir 
+非空：rm -rf 
+写完脚本后记得chmod +x .sh 加权限
+筛选日志错误: cat /var/log/syslog | grep error
+
+docker pull nginx 
+docker run -d -p 8080:80 nginx(之后在浏览器中localhost:8080->welcome to nginx)
+挂载目录:-v $(pwd):/usr/share/nginx/html nginx
+docker exec -it mynginx /bin/sh
+docker logs -f mysite
+
+
+更新软件包索引	sudo yum makecache	sudo apt update
+安装软件（比如 Nginx）	sudo yum install nginx -y	sudo apt install nginx -y 
+卸载软件（保留配置）	sudo yum remove nginx -y	sudo apt remove nginx -y
+卸载软件（删除所有配置）	sudo yum erase nginx -y	sudo apt purge nginx -y
+查看软件安装路径	rpm -ql nginx	dpkg -L nginx
+查看系统已安装包	rpm -qa	dpkg -l
+启动服务（比如 Nginx）	sudo systemctl start nginx	sudo systemctl start nginx
+设为开机自启	sudo systemctl enable nginx	sudo systemctl enable nginx
+停止服务	sudo systemctl stop nginx	sudo systemctl stop nginx
+查看服务状态	sudo systemctl status nginx	sudo systemctl status nginx
+重启服务	sudo systemctl restart nginx	sudo systemctl restart nginx
+
+系统目录结构
+完全一致！/etc（配置文件）、/var（日志 / 数据）、/usr（软件安装）、/home（用户目录）这些核心目录的作用没有区别。
+
+查看系统日志: journalctl -p err -b 
+-p err 表示只显示优先级为“错误”或更高级别（紧急，告急）的日志
+-b 表示只显示本次启动以来的日志
+
+
+pwd:查看当前目录
+# 统计 error_log.txt 里有多少行
+wc -l error_log.txt
+创建文件:touch test.txt
+查看:cat test.txt（.sh脚本无法查看）
+系统内存:free -h
+磁盘: df -h
+当前进程: ps aux
+
+
+
