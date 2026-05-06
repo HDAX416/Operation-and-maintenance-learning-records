@@ -7,7 +7,7 @@
 ## 🛠️ 技术栈
 - 操作系统：Ubuntu WSL2
 - 容器技术：Docker
-- 数据库：MySQL 5.7、Redis
+- 数据库：MySQL 8.0、Redis
 - 版本控制：Git + GitHub
 - 自动化：Shell 脚本 + Crontab 定时任务
 - 安全加固：Fail2ban、SSH 配置优化
